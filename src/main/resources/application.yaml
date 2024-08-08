@@ -1,0 +1,11 @@
+server:
+  port: ${server.port}
+
+# Application information
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://jabhinath1995:ch*#rzPi*sh26LC@cluster0.tllxlzz.mongodb.net/?retryWrites=true&w=majority
+      database: test-backend
+  application:
+    name: backend-application
